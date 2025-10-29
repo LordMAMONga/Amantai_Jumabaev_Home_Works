@@ -8,5 +8,6 @@ public enum SuperAbility {
     SHURIKEN,
     EXPLOSION,
     REVENGE,
-    ONE_PUNCH
+    ONE_PUNCH,
+    HACK
 }

@@ -21,8 +21,9 @@ public class RPG_Game {
         Samurai samurai = new Samurai("Tadashi",240,30);
         Reaper reaper = new Reaper("Slayer",300,10);
         King king = new King("King",200,0);
+        Hacker hacker = new Hacker("Chak",210,10);
 
-        Hero[] heroes = {warrior1, doc, warrior2, berserk, magic, assistant,samurai,reaper,king};
+        Hero[] heroes = {warrior1, doc, warrior2, berserk, magic, assistant,samurai,reaper,king,hacker};
 
         printStatistics(boss, heroes);
         while (!isGameOver(boss, heroes)) {

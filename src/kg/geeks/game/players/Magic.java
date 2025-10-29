@@ -21,7 +21,7 @@ public class Magic extends Hero {
         if (getHealth() > 0 && RPG_Game.getRoundNumber() <= 4 && !this.boosting) {
 
             this.boost = RPG_Game.random.nextInt(1, 11);
-            System.out.println("Mage is boosting ALL heroes by +" + this.boost);
+            System.out.println("Mage is boosting ALL heroes by " + this.boost);
             for (Hero hero : heroes) {
                 hero.setDamage(hero.getDamage() + this.boost);
             }
